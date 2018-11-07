@@ -3,8 +3,6 @@
 *.iml
 *.ipr
 *.iws
-out
-
 .gradle/
 build/
 */build/
