@@ -15,11 +15,11 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
 
         channelGroup.forEach(ch -> {
             if(channel!=ch){
-                ch.writeAndFlush(channel.remoteAddress()+" 发送的消息："+s+"\n");
+                ch.writeAndFlush("["+channel.remoteAddress()+"]"+"发来的消息："+s+"\r\n");
 
             }
             else{
-                ch.writeAndFlush(" 自己的："+channel.remoteAddress()+s+"\n");
+                ch.writeAndFlush("【自己】"+s+"\r\n");
             }
         });
     }
@@ -27,13 +27,13 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         Channel channel=ctx.channel();
-        channelGroup.writeAndFlush("客户端："+ctx.channel().remoteAddress().toString()+" 加入");
+        channelGroup.writeAndFlush("客户端["+ctx.channel().remoteAddress().toString()+"]加入\n");
         channelGroup.add(channel);
     }
 
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         Channel channel=ctx.channel();
-        channelGroup.writeAndFlush("客户端："+ctx.channel().remoteAddress().toString()+" 离开");
+        channelGroup.writeAndFlush("客户端["+ctx.channel().remoteAddress().toString()+"]离开\n");
     }
 }

@@ -1,6 +1,7 @@
-package com.netty.demo3.server;
+package com.netty.demo3.client;
 
-import com.netty.demo2.server.MyServerHandler;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
@@ -10,13 +11,14 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
 
-public class MyChatServerInitializer extends ChannelInitializer<SocketChannel> {
+public class MyChatClientInitializer extends ChannelInitializer<SocketChannel> {
     @Override
-    protected void initChannel(SocketChannel socketChannel) throws Exception {
-        ChannelPipeline pipeline=socketChannel.pipeline();
+    protected void initChannel(SocketChannel ch) throws Exception {
+
+        ChannelPipeline pipeline=ch.pipeline();
         pipeline.addLast(new DelimiterBasedFrameDecoder(4096, Delimiters.lineDelimiter()));
-        pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
         pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
-        pipeline.addLast(new MyChatServerHandler());
+        pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
+        pipeline.addLast(new MyChatClientHandler());
     }
 }

@@ -19,10 +19,7 @@ public class MyClientHandler extends SimpleChannelInboundHandler<String> {
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         super.channelActive(ctx);
         ByteBuf byteBuf=Unpooled.copiedBuffer("hello", CharsetUtil.UTF_8);
-        int i=0;
-        while(i++<1){
-            ctx.writeAndFlush(byteBuf);
-        }
+        ctx.writeAndFlush(byteBuf);
     }
 
     @Override
