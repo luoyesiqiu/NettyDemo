@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a33f3d86-37de-4d47-b3a1-bee19375d6ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo1/DataInHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo1/DataInHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo1/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo1/NettyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/client/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/client/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/client/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/client/MyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/server/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/server/MyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/server/MyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo2/server/MyServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo3/server/MyChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo3/server/MyChatServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/netty/demo3/server/MyChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/netty/demo3/server/MyChatServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/demo2/client/MyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/demo2/client/MyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerInitializer.java" afterDir="false" />
-    </list>
+    <list default="true" id="a33f3d86-37de-4d47-b3a1-bee19375d6ce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -142,13 +124,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="22" />
-          <entry key="java" value="238" />
+          <entry key="java" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="22" />
-          <entry key="JAVA" value="238" />
+          <entry key="JAVA" value="240" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -183,8 +165,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="323">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -725,7 +707,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541568029548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541568157094" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -861,11 +843,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5002755" side_tool="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="9" sideWeight="0.49917355" weight="0.30911064" />
@@ -1034,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/demo3/server/MyChatServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="323">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
